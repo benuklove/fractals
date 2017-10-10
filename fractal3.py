@@ -1,12 +1,13 @@
-''' Present an interactive function explorer with slider widgets.
-Scrub the sliders to change the properties of the ``sin`` curve, or
-type into the title text box to update the title of the plot.
-Use the ``bokeh serve`` command to run the example by executing:
-    bokeh serve sliders.py
-at your command prompt. Then navigate to the URL
-    http://localhost:5006/sliders
-in your browser.
-'''
+"""
+
+    Use the ``bokeh serve`` command to run the example by executing:
+    bokeh serve --show fractal3.py
+    at your command prompt.
+    This will open a new window (or tab) in your browser at
+    http://localhost:5006/fractal3
+    It will keep running until ctrl + c.
+
+"""
 
 
 from random import choice
@@ -78,13 +79,9 @@ def update_title(attrname, old, new):
 text.on_change('value', update_title)
 
 
-
-
 # Set up layouts and add to document
 inputs = widgetbox(text)
 layout = row(inputs, plot)
 
 curdoc().add_root(layout)
 curdoc().title = "Fractals"
-
-# curdoc().add_periodic_callback(draw, 50)
