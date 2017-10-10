@@ -2,7 +2,7 @@
 
 Step one of "Make it work, make it right, make it fast". :grin:
 
-Just playing with Bokeh Server.
+Playing with Bokeh Server.
 
 ### File Info:
 
