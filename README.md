@@ -25,3 +25,7 @@ Playing with Bokeh Server.
   * fractal_restriction_3.py
   
     Restriction: Chosen target point cannot be two points away from previously chosen point.
+
+<br>
+
+Inspired by **Numberphile**, on [YouTube](https://youtu.be/kbKtFN71Lfs)
