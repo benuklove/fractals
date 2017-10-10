@@ -28,4 +28,6 @@ Playing with Bokeh Server.
 
 <br>
 
-Inspired by **Numberphile**, on [YouTube](https://youtu.be/kbKtFN71Lfs)
+Inspired by **Numberphile**, on [YouTube](https://youtu.be/kbKtFN71Lfs) <br>
+
+Informed by **Wikipedia**.
